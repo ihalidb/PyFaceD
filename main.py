@@ -27,6 +27,3 @@ while True:
 
 camera.release()
 cv2.destroyAllWindows()
-
-sasass
-123123
