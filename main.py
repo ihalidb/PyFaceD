@@ -22,7 +22,7 @@ while True:
     for (x, y, width, height) in faces:
         font = cv2.FONT_HERSHEY_PLAIN
         cv2.rectangle(frame, (x, y), (x + width, y + height), (255, 255, 0), 2)
-        text = ("{} Yüz Tespit Edildi".format(len(faces)))
+        text = ("{} Yuz Tespit Edildi".format(len(faces)))
         cv2.putText(frame, str(text), (10, 470), font, 1, (255, 255, 255), 1, cv2.FILLED)
     cv2.imshow("Faces", frame)
     if cv2.waitKey(1) & 0xFF == ord("q"):
